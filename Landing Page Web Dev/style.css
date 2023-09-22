@@ -1,0 +1,553 @@
+/* Tambahkan kode CSS kalian di file ini */
+/* Ukuran logo */
+.logo-owlearn img{ 
+    width: 100px; 
+    height: 60px;
+}
+
+/* logo dan nama website */
+.logo-owlearn{ 
+    display: flex;
+    gap: 5px;
+    margin-left: 32px;
+    align-items: center;
+}
+
+/* Judul/ Nama Website samping logo */
+.logo-owlearn h3{
+    font-family: 'Karla', sans-serif;
+}
+
+/* Button Sign In */
+.sign-In{
+    padding: 10px 14px;
+    margin-left: auto;
+    margin-right: 25px;
+    border-radius: 15%;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    background-color: #07689F;
+    color: white;
+    font-size: 16px;
+}
+
+ /* menu navbar */
+.menu-navbar{
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+.menu-navbar li a{
+    text-decoration: none;
+    color:#07689F;
+}
+
+/* Menu navbar, logo, nama website */
+.menunavbar-logo{ 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Menu navbar, logo, nama website dan button */
+.navbar-homepage{ 
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 565px;
+    border-bottom: 1px solid #ABBED1;
+}
+
+/*_________________________________________________________*/
+
+/*Induk dari Paragraf Promosi*/
+.pesan-ajakan{ 
+    margin-left: 250px;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+}
+
+/*Gambar Owl*/
+#gambar-owl {
+    border: 0;
+    margin-right: 450px;
+}
+
+/*Button Belajar*/
+.button-belajar{
+    padding: 10px 14px;
+    margin-left: auto;
+    margin-right: 32px;
+    border-radius: 15%;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    background-color: #07689F;
+    color: white;
+    font-size: 16px;
+}
+
+/* Paragraf promosi */
+.pesan-ajakan p{ 
+    width: 330px;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+    top: 12px;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+/* Kalimat Promosi Bolt*/
+.pesan-ajakan h2{ 
+    width: 320px;
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+ /* Induk paragraf promosi dan gambar owl*/
+.utama{
+    align-items: center;
+    gap: 0px;
+    margin-top: 8px;
+    display: flex;
+    height: 400px;
+    margin-bottom: 30px;
+    right: 30px;
+    background-color: #EEF9FF;
+
+}
+
+/*____________________________________________________*/
+
+/*Induk chat bot*/
+.chat-bot{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap:0px;
+    background-color: #9ABDD2;
+}
+
+/*Gambar Chat Bot*/
+.chat-bot img{ 
+    width: 100px; 
+    height: 90px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 425px;
+}
+
+/*teks chat bot 1*/
+.teks-bot h4{ 
+    width: 200px;
+    height: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+/*teks chat bot 2*/
+.teks-bot h2{
+    width: 250px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+/*button chatbot*/
+.button-chatbot{
+    padding: 10px 14px;
+    margin-left: auto;
+    margin-right: 350px;
+    border-radius: 15%;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    background-color: #07689F;
+    color: white;
+    font-size: 16px;
+}
+
+/*____________________________________________________*/
+
+/*Induk About Us*/
+.about-us{ 
+    text-align: center;
+    margin-bottom: 10px;
+    height: 460px;
+    margin-right:8px;
+    background-color: #FFF4F4;
+}
+
+/*Deskription*/
+#description{ 
+    font-size: 20px;
+    margin-bottom: 6px;
+    font-family: 'Karla', sans-serif;
+    
+}
+
+/*Judul About Us*/
+.about-us h3{ 
+    margin-bottom: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+/*Link Skilvul*/
+#link{ 
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+/*_________________________________________________*/
+
+/*Induk Form*/
+#myForm{
+    text-align: center;
+    margin-top: -10px;
+    width: 136%;
+    height: 460px;;
+    background-color: #EEF9FF;
+    margin-bottom: 20px;
+}
+
+/*Judul Formulir*/
+.formulir legend{
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+}
+
+/*Label Inputan*/
+#myForm label{
+     text-align: left;
+     font-size: 18px;
+     top: 12px;
+     font-family: 'Karla', sans-serif;
+}
+
+/*Tempat inputan*/
+#myForm input{
+    padding: 6px 16px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    border-color: #ABBED1;
+    border-radius: 15%;
+
+}
+
+/*Button Submit*/
+#submit-form{
+    padding: 8px 28px;
+    margin: center;
+    border-radius: 15%;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    background-color: #07689F;
+    color: white;
+    font-size: 16px;
+}
+
+/*Digunakan untuk form dan about us menjadi bersampingan*/
+.penghubung {
+    display: flex;
+}
+
+
+/*_________________________________________________*/
+
+/*Induk footer*/
+.footer{ 
+    margin-top: 10px;
+    border-top: 4px solid #263238;
+    background-color: #263238;
+    display: flex;
+    gap: 50px;
+    height: 150px;
+}
+
+.logo-footer h5{
+    font-family: 'Karla', light;
+    font-size: 16px;
+    color: #F7FBFE;
+}
+
+/* logo owl untuk footer*/
+.logo-footer img{ 
+    width: 70px; 
+    height: 45px;
+}
+
+/* logo owl dan nama website untuk footer*/
+.logo-footer{ 
+    display: flex;
+    gap: 5px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+/*Logo sosmed */
+.logo-sosmed img{ 
+    width: 20px; 
+    height: 20px;
+}
+
+/*induk logo sosmed*/
+.logo-sosmed{ 
+    margin-left: 200px;
+}
+
+
+/* Logo sosial media */
+.logo-sosmed {
+    margin-left: 200px;
+}
+
+/* Mengatur ukuran logo sosmed */
+.logo-sosmed img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Footer-one text */
+.footer-one p {
+    margin-top: 5px;
+    margin-left: 200px;
+    font-family: 'Karla', light;
+    font-size: 16px;
+    color: #F7FBFE;
+}
+
+/* Footer-two & Footer-three */
+.footer-two, .footer-three {
+    margin-left: 200px;
+}
+
+/* Footer-two */
+.footer-two h4 {
+    margin-bottom: 8px;
+    font-family: 'Karla', light;
+    color: #F7FBFE;
+}
+
+.footer-two p {
+    font-family: 'Karla', light;
+    color: #F7FBFE;
+    font-size: 16px;
+}
+
+/* Footer-three */
+.footer-three h4 {
+    font-family: 'Karla', light;
+    color: #F7FBFE;
+}
+
+.footer-three p {
+    font-family: 'Karla', light;
+    font-size: 16px;
+    color: #F7FBFE;
+}
+
+
+/*_________________________________________________*/
+
+
+@media screen and (max-width: 768px) {
+    /* Ukuran logo */
+   .logo-owlearn img{ 
+        width: 80%; 
+        height: 80%;
+    }
+
+    /* Judul/ Nama Website samping logo  */
+    .logo-owlearn h3{
+        font-size: 90%;
+    }
+
+    /* logo dan nama website */
+    .logo-owlearn{ 
+        width: 50%; 
+        gap: 10%;
+        margin-left: 8%;
+        display: flex;
+    }
+
+    /* Button Sign In */
+    .sign-In {
+        font-size: 16px;
+        padding: 10px 10px;
+        position: absolute;
+        top: 5px;
+        right: 2%;
+        margin: 10px;
+    }
+
+    /* menu navbar */
+    .menu-navbar{ 
+        gap: 30%;
+        list-style-type: none;
+        font-size: 90%;
+        margin-top: 10%;  
+    }
+    
+    /* Menu navbar, logo, nama website */
+    .menunavbar-logo{
+        gap: 40px;
+        display: block;
+    }
+    
+    /* Menu navbar, logo, nama website dan button */
+    .navbar-homepage{ 
+        margin-top: 12px;
+        gap: 20%;
+    }
+
+    /*_________________________________________________*/
+
+    /* Induk paragraf promosi dan gambar owl*/
+    .utama {
+        position: relative;
+        height: 680px;
+        left: 0%;
+       
+    }
+
+    /*Gambar Owl*/
+    #gambar-owl {
+        width: 150%;
+        height: 85%;
+        border: 0px;
+        margin-left: -22%;
+        position: absolute; 
+        bottom: 28%; 
+        left: -22; 
+    
+    }
+
+    /*Induk dari Paragraf Promosi*/
+    .pesan-ajakan {
+        font-size: 14px;
+        margin-left: 5px;
+        width: 95%;
+        height: 270px;
+        padding: 5px;
+        top: 57%;
+        position: absolute; 
+        display: block;
+    }
+
+    /* Kalimat Promosi Bolt */
+    .pesan-ajakan h2 {
+        width: 310px;
+        height: 65px;
+        padding: 15px;
+        margin: 0px;
+    }
+
+    /* Paragraf promosi */
+    .pesan-ajakan p {
+        width: 300px;
+        height: 110px;
+        padding: 10px;
+        margin: 0px;
+        top: 0;
+        display: block;
+    }
+
+     /*_________________________________________________*/
+
+    /* Gambar Chat Bot */
+    .chat-bot img { 
+        margin-left: -6%;
+        border: 0;
+    }
+
+    /* Teks chat bot 1 */
+    .teks-bot h4 { 
+        width: 235%;
+        height: 2%;
+        margin: -15px;
+    }
+
+    .teks-bot h2 {
+        width: 235%;
+        height: 12%;
+        padding: 1%;
+        margin: -15px;
+    }
+
+    /* Induk chat bot */
+    .chat-bot {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2%;
+        margin-top: 10%;
+        gap: 0;
+    }
+
+    /* Button chatbot */
+    .button-chatbot {
+        display: block;
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+
+    /*_________________________________________________*/
+
+    /*Digunakan untuk form dan about us menjadi bersampingan*/
+    .penghubung {
+        display: block;
+    }
+
+    /*Induk Form*/
+    #myForm{
+        text-align: center;
+        width: 97%;
+        height: 160%;
+    }
+
+    /*_________________________________________________*/
+
+    .footer{ 
+        display: block;
+        height: 410px;
+    }
+
+    /* Footer-two & Footer-three */
+    .footer-two, .footer-three {
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    /*induk logo sosmed*/
+    .logo-sosmed{ 
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    /* logo owl dan nama website untuk footer*/
+    .logo-footer{ 
+        margin-left: 30%;
+        text-align: center;
+    }
+
+    /* tulisan Copyright @ 2023... */
+    .footer-one p {
+       margin-left: 0%;
+       text-align: center;
+    }
+
+   
+}
+
+
+
+
+
